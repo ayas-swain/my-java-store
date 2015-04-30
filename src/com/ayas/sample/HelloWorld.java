@@ -13,7 +13,7 @@ public class HelloWorld {
 		System.out.println("Hello World !!!. This is my first code in GitHub repo.");
 		
 		if(args.length > 0) {
-			System.out.println("Printing program arguments");
+			System.out.println("Printing command line arguments.");
 			for(String str : args)
 				System.out.println(str);
 		
